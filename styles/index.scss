@@ -1,0 +1,38 @@
+div.box {
+height: 70vh;
+width: 80%;
+background-color: rgb(236, 248, 248);
+border: 2px solid grey;
+margin: 0 auto;
+font-size: 56px;
+overflow-y: scroll;
+ul {
+    display: flex; 
+    flex-direction: column;
+
+}
+}
+
+div.control {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    button.buttonSend {
+        font-size: 26px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: 0.4s;
+        &:hover {
+            color: black;
+            background-color: rgba(187, 187, 187, 0.637);
+        }
+    }
+    
+    input.inp {
+    width: 40%;
+    font-size: 26px;
+    }
+}
